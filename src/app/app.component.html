@@ -1,0 +1,80 @@
+<ion-app>
+  <ion-split-pane>
+    <ion-menu type="overlay">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list>
+          <ion-list-header>
+            Components
+          </ion-list-header>
+          <ion-menu-toggle auto-hide="false" *ngFor="let p of mainPages">
+            <ion-item
+              detail="false"
+              lines="none"
+              [routerDirection]="'root'"
+              [routerLink]="[p.url]"
+              routerLinkActive="active-link"
+            >
+              <ion-icon slot="start" color="primary" [name]="p.icon"></ion-icon>
+              <ion-label>
+                {{ p.title }}
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+
+        <ion-list>
+          <ion-list-header>
+            Utilities
+          </ion-list-header>
+          <ion-menu-toggle auto-hide="false" *ngFor="let t of utilityPages">
+            <ion-item
+              detail="false"
+              lines="none"
+              [routerDirection]="'root'"
+              [routerLink]="[t.url]"
+              routerLinkActive="active-link"
+            >
+              <ion-icon slot="start" color="primary" [name]="t.icon"></ion-icon>
+              <ion-label>
+                {{ t.title }}
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
+      <ion-footer>
+        <ion-toolbar color="transparent">
+          <ion-buttons slot="end">
+            <a target="blank" href="https://github.com/KasunGamage">
+              <ion-button color="dark">
+                <ion-icon
+                  color="primary"
+                  slot="icon-only"
+                  name="logo-github"
+                ></ion-icon>
+              </ion-button>
+            </a>
+            <a
+              target="blank"
+              href="https://www.linkedin.com/in/kasun-gamage95/"
+            >
+              <ion-button color="dark">
+                <ion-icon
+                  color="primary"
+                  slot="icon-only"
+                  name="logo-linkedin"
+                ></ion-icon>
+              </ion-button>
+            </a>
+          </ion-buttons>
+        </ion-toolbar>
+      </ion-footer>
+    </ion-menu>
+    <ion-router-outlet main [swipeGesture]="false"></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>

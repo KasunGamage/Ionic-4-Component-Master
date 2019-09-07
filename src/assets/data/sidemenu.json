@@ -1,0 +1,253 @@
+{
+    "mainPages": [
+      {
+        "title": "Card",
+        "url": "/card",
+        "icon": "card"
+      },
+      {
+        "title": "List",
+        "url": "/list",
+        "icon": "list"
+      },
+      {
+        "title": "Item",
+        "url": "/item",
+        "icon": "menu"
+      },
+      {
+        "title": "Button",
+        "url": "/button",
+        "icon": "log-in"
+      },
+      {
+        "title": "Badge",
+        "url": "/badge",
+        "icon": "ribbon"
+      },
+      {
+        "title": "Ripple Effect",
+        "url": "/ripple-effect",
+        "icon": "aperture"
+      },
+      {
+        "title": "CheckBox",
+        "url": "/checkbox",
+        "icon": "checkbox"
+      },
+      {
+        "title": "Chip",
+        "url": "/chip",
+        "icon": "radio-button-off"
+      },
+      {
+        "title": "Datetime",
+        "url": "/datetime",
+        "icon": "calendar"
+      },
+      {
+        "title": "Picker",
+        "url": "/picker",
+        "icon": "color-filter"
+      },
+      {
+        "title": "Fab",
+        "url": "/fab",
+        "icon": "checkmark-circle"
+      },
+      {
+        "title": "Grid",
+        "url": "/grid",
+        "icon": "grid"
+      },
+      {
+        "title": "Infinite Scroll",
+        "url": "/infinite-scroll",
+        "icon": "arrow-down"
+      },
+      {
+        "title": "Icon",
+        "url": "/icon",
+        "icon": "bicycle"
+      },
+      {
+        "title": "Input",
+        "url": "/input",
+        "icon": "return-right"
+      },
+      {
+        "title": "Textarea",
+        "url": "/textarea",
+        "icon": "text"
+      },
+      {
+        "title": "Label",
+        "url": "/label",
+        "icon": "pricetag"
+      },
+      {
+        "title": "Note",
+        "url": "/note",
+        "icon": "create"
+      },
+      {
+        "title": "Virtual Scroll",
+        "url": "/virtual-scroll",
+        "icon": "arrow-dropdown"
+      },
+      {
+        "title": "Avatar",
+        "url": "/avatar",
+        "icon": "person"
+      },
+      {
+        "title": "Image",
+        "url": "/image",
+        "icon": "image"
+      },
+      {
+        "title": "Thumbnail",
+        "url": "/thumbnail",
+        "icon": "body"
+      },
+      {
+        "title": "Split Pane",
+        "url": "/split-pane",
+        "icon": "contract"
+      },
+      {
+        "title": "Backdrop",
+        "url": "/backdrop",
+        "icon": "repeat"
+      },
+      {
+        "title": "Progress Bar",
+        "url": "/progress-bar",
+        "icon": "podium"
+      },
+      {
+        "title": "Skeleton Text",
+        "url": "/skeleton-text",
+        "icon": "walk"
+      },
+      {
+        "title": "Spinner",
+        "url": "/spinner",
+        "icon": "refresh-circle"
+      },
+      {
+        "title": "Radio",
+        "url": "/radio",
+        "icon": "radio-button-on"
+      },
+      {
+        "title": "Range",
+        "url": "/range",
+        "icon": "remove"
+      },
+      {
+        "title": "Refresher",
+        "url": "/refresher",
+        "icon": "refresh"
+      },
+      {
+        "title": "Reorder",
+        "url": "/reorder",
+        "icon": "reorder"
+      },
+      {
+        "title": "Searchbar",
+        "url": "/searchbar",
+        "icon": "search"
+      },
+      {
+        "title": "Segment",
+        "url": "/segment",
+        "icon": "contrast"
+      },
+      {
+        "title": "Select",
+        "url": "/select",
+        "icon": "trending-up"
+      },
+      {
+        "title": "Slides",
+        "url": "/slides",
+        "icon": "today"
+      },
+      {
+        "title": "Tabs",
+        "url": "/tabs",
+        "icon": "tablet-portrait"
+      },
+      {
+        "title": "Toggle",
+        "url": "/toggle",
+        "icon": "swap"
+      },
+      {
+        "title": "Toolbar",
+        "url": "/toolbar",
+        "icon": "tv"
+      },
+      {
+        "title": "Header",
+        "url": "/header",
+        "icon": "laptop"
+      },
+      {
+        "title": "Footer",
+        "url": "/footer",
+        "icon": "easel"
+      },
+      {
+        "title": "Back Button",
+        "url": "/back-button",
+        "icon": "undo"
+      },
+      {
+        "title": "Anchor",
+        "url": "/anchor",
+        "icon": "at"
+      },
+      {
+        "title": "Text",
+        "url": "/text",
+        "icon": "book"
+      }
+    ],
+  
+    "utilityPages": [
+      {
+        "title": "Action Sheet",
+        "url": "/action-sheet",
+        "icon": "build"
+      },
+      {
+        "title": "Alert",
+        "url": "/alert",
+        "icon": "alert"
+      },
+      {
+        "title": "Modal",
+        "url": "/modal",
+        "icon": "albums"
+      },
+      {
+        "title": "Popover",
+        "url": "/popover",
+        "icon": "more"
+      },
+      {
+        "title": "Loading",
+        "url": "/loading",
+        "icon": "sync"
+      },
+      {
+        "title": "Toast",
+        "url": "/toast",
+        "icon": "information"
+      }
+    ]
+  }
+  
