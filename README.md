@@ -1,7 +1,6 @@
-# Ionic 4 Advanced Components [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)
-[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors)
+# Ionic 4 Advanced Components
 
-_Currently this project is using the latest versions of all: Ionic and Angular
+Currently this project is using the latest versions of all: Ionic and Angular
 
 
 ## Demo
