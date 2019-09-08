@@ -4,6 +4,7 @@ Currently this project is using the latest versions of all: Ionic and Angular
 
 
 ## Demo
+If you just want to check this project out, you can see the online demo at https://ionic-4-component-master.firebaseapp.com.
 
 Please notice that some plugins may **only work** when using a real device, so don't expect everything to work on ionic view or the browser.
 
