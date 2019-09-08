@@ -10,13 +10,10 @@ Please notice that some plugins may **only work** when using a real device, so d
 
 ****
 
-This repository was made in order to help people learn and speed up their development process.
+This repository i made in order to help people learn and speed up their development process.
 You will find many many different components, pages, pipes, services, of which can be very useful to you. Note though that these are all experimental!
 
-The content here is a mix of tutorials found online, a few adapted codepen stuff, a few dribbble inspired layouts, and also other stuff made by the amazing contributors of this project.
-
-**HOPEFULLY** you will like this repo and feel like contributing, so please if you can, contribute so we can have even more amazing content!
-
+The content here is a mix of tutorials found online, a few adapted stuff, a few inspired layouts, and also other stuff made by the amazing contributors in the world.
 
 ## Setup
 
