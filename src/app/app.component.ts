@@ -4,7 +4,7 @@ import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { SidemenuService } from './services/utilities/sidemenu.service';
-
+import { VersionService } from './services/utilities/version.service';
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -18,10 +18,12 @@ export class AppComponent {
     private platform: Platform,
     private splashScreen: SplashScreen,
     private statusBar: StatusBar,
-    private sidemenuService: SidemenuService
+    private sidemenuService: SidemenuService,
+    private versionService: VersionService
   ) {
     this.initializeApp();
     this.loadSideMenu();
+    this.versionService.showNewVersion();
   }
 
   initializeApp() {
