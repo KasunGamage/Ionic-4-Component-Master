@@ -1,24 +1,24 @@
 {
     "mainPages": [
       {
-        "title": "Card",
-        "url": "/card",
-        "icon": "card"
+        "title": "Anchor",
+        "url": "/anchor",
+        "icon": "at"
       },
       {
-        "title": "List",
-        "url": "/list",
-        "icon": "list"
+        "title": "Avatar",
+        "url": "/avatar",
+        "icon": "person"
       },
       {
-        "title": "Item",
-        "url": "/item",
-        "icon": "menu"
+        "title": "Back Button",
+        "url": "/back-button",
+        "icon": "undo"
       },
       {
-        "title": "Button",
-        "url": "/button",
-        "icon": "log-in"
+        "title": "Backdrop",
+        "url": "/backdrop",
+        "icon": "repeat"
       },
       {
         "title": "Badge",
@@ -26,9 +26,14 @@
         "icon": "ribbon"
       },
       {
-        "title": "Ripple Effect",
-        "url": "/ripple-effect",
-        "icon": "aperture"
+        "title": "Button",
+        "url": "/button",
+        "icon": "log-in"
+      },
+      {
+        "title": "Card",
+        "url": "/card",
+        "icon": "card"
       },
       {
         "title": "CheckBox",
@@ -46,14 +51,14 @@
         "icon": "calendar"
       },
       {
-        "title": "Picker",
-        "url": "/picker",
-        "icon": "color-filter"
-      },
-      {
         "title": "Fab",
         "url": "/fab",
         "icon": "checkmark-circle"
+      },
+      {
+        "title": "Footer",
+        "url": "/footer",
+        "icon": "easel"
       },
       {
         "title": "Grid",
@@ -61,9 +66,9 @@
         "icon": "grid"
       },
       {
-        "title": "Infinite Scroll",
-        "url": "/infinite-scroll",
-        "icon": "arrow-down"
+        "title": "Header",
+        "url": "/header",
+        "icon": "laptop"
       },
       {
         "title": "Icon",
@@ -71,14 +76,24 @@
         "icon": "bicycle"
       },
       {
+        "title": "Image",
+        "url": "/image",
+        "icon": "image"
+      },
+      {
+        "title": "Infinite Scroll",
+        "url": "/infinite-scroll",
+        "icon": "arrow-down"
+      },
+      {
         "title": "Input",
         "url": "/input",
         "icon": "return-right"
       },
       {
-        "title": "Textarea",
-        "url": "/textarea",
-        "icon": "text"
+        "title": "Item",
+        "url": "/item",
+        "icon": "menu"
       },
       {
         "title": "Label",
@@ -86,54 +101,34 @@
         "icon": "pricetag"
       },
       {
+        "title": "List",
+        "url": "/list",
+        "icon": "list"
+      },
+      {
+        "title": "Loading",
+        "url": "/loading",
+        "icon": "sync"
+      },
+      {
+        "title": "Modal",
+        "url": "/modal",
+        "icon": "albums"
+      },
+      {
         "title": "Note",
         "url": "/note",
         "icon": "create"
       },
       {
-        "title": "Virtual Scroll",
-        "url": "/virtual-scroll",
-        "icon": "arrow-dropdown"
-      },
-      {
-        "title": "Avatar",
-        "url": "/avatar",
-        "icon": "person"
-      },
-      {
-        "title": "Image",
-        "url": "/image",
-        "icon": "image"
-      },
-      {
-        "title": "Thumbnail",
-        "url": "/thumbnail",
-        "icon": "body"
-      },
-      {
-        "title": "Split Pane",
-        "url": "/split-pane",
-        "icon": "contract"
-      },
-      {
-        "title": "Backdrop",
-        "url": "/backdrop",
-        "icon": "repeat"
+        "title": "Picker",
+        "url": "/picker",
+        "icon": "color-filter"
       },
       {
         "title": "Progress Bar",
         "url": "/progress-bar",
         "icon": "podium"
-      },
-      {
-        "title": "Skeleton Text",
-        "url": "/skeleton-text",
-        "icon": "walk"
-      },
-      {
-        "title": "Spinner",
-        "url": "/spinner",
-        "icon": "refresh-circle"
       },
       {
         "title": "Radio",
@@ -156,6 +151,11 @@
         "icon": "reorder"
       },
       {
+        "title": "Ripple Effect",
+        "url": "/ripple-effect",
+        "icon": "aperture"
+      },
+      {
         "title": "Searchbar",
         "url": "/searchbar",
         "icon": "search"
@@ -171,14 +171,44 @@
         "icon": "trending-up"
       },
       {
+        "title": "Skeleton Text",
+        "url": "/skeleton-text",
+        "icon": "walk"
+      },
+      {
         "title": "Slides",
         "url": "/slides",
         "icon": "today"
       },
       {
+        "title": "Spinner",
+        "url": "/spinner",
+        "icon": "refresh-circle"
+      },
+      {
+        "title": "Split Pane",
+        "url": "/split-pane",
+        "icon": "contract"
+      },
+      {
         "title": "Tabs",
         "url": "/tabs",
         "icon": "tablet-portrait"
+      },
+      {
+        "title": "Text",
+        "url": "/text",
+        "icon": "book"
+      },
+      {
+        "title": "Textarea",
+        "url": "/textarea",
+        "icon": "text"
+      },
+      {
+        "title": "Thumbnail",
+        "url": "/thumbnail",
+        "icon": "body"
       },
       {
         "title": "Toggle",
@@ -191,29 +221,9 @@
         "icon": "tv"
       },
       {
-        "title": "Header",
-        "url": "/header",
-        "icon": "laptop"
-      },
-      {
-        "title": "Footer",
-        "url": "/footer",
-        "icon": "easel"
-      },
-      {
-        "title": "Back Button",
-        "url": "/back-button",
-        "icon": "undo"
-      },
-      {
-        "title": "Anchor",
-        "url": "/anchor",
-        "icon": "at"
-      },
-      {
-        "title": "Text",
-        "url": "/text",
-        "icon": "book"
+        "title": "Virtual Scroll",
+        "url": "/virtual-scroll",
+        "icon": "arrow-dropdown"
       }
     ],
   
@@ -229,19 +239,9 @@
         "icon": "alert"
       },
       {
-        "title": "Modal",
-        "url": "/modal",
-        "icon": "albums"
-      },
-      {
         "title": "Popover",
         "url": "/popover",
         "icon": "more"
-      },
-      {
-        "title": "Loading",
-        "url": "/loading",
-        "icon": "sync"
       },
       {
         "title": "Toast",
