@@ -1,13 +1,13 @@
 <ion-header>
   <ion-toolbar>
-      <ion-buttons slot="start">
-          <ion-menu-button></ion-menu-button>
-        </ion-buttons>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
     <ion-title>Badge</ion-title>
     <ion-buttons slot="primary">
-        <ion-button routerLink="/backdrop" routerDirection="root">
-          PREVIOUS
-        </ion-button>
+      <ion-button routerLink="/backdrop" routerDirection="root">
+        PREVIOUS
+      </ion-button>
       <ion-button routerLink="/button" routerDirection="root">
         NEXT
       </ion-button>
@@ -16,5 +16,61 @@
 </ion-header>
 
 <ion-content>
+  <ion-list>
+    <ion-list-header>
+      <ion-label color="primary">Default</ion-label></ion-list-header>
+    <ion-item>
+      <ion-badge>99</ion-badge>
+    </ion-item>
+  </ion-list>
 
+  <ion-list>
+    <ion-list-header>
+        <ion-label color="primary">Colors</ion-label></ion-list-header>
+    <ion-item>
+      <ion-label>Followers</ion-label>
+      <ion-badge slot="end">22k</ion-badge>
+    </ion-item>
+    <ion-item>
+      <ion-label>Likes</ion-label>
+      <ion-badge color="secondary" slot="end">118k</ion-badge>
+    </ion-item>
+    <ion-item>
+      <ion-label>Stars</ion-label>
+      <ion-badge color="tertiary" slot="end">34k</ion-badge>
+    </ion-item>
+    <ion-item>
+      <ion-label>Completed</ion-label>
+      <ion-badge color="success" slot="end">80</ion-badge>
+    </ion-item>
+    <ion-item>
+      <ion-label>Warnings</ion-label>
+      <ion-badge color="warning" slot="end">70</ion-badge>
+    </ion-item>
+    <ion-item>
+      <ion-label>Notifications</ion-label>
+      <ion-badge color="danger" slot="end">1000</ion-badge>
+    </ion-item>
+    <ion-item>
+      <ion-label>Unread</ion-label>
+      <ion-badge color="light" slot="end">24</ion-badge>
+    </ion-item>
+    <ion-item>
+      <ion-label>Drafts</ion-label>
+      <ion-badge color="medium" slot="end">14</ion-badge>
+    </ion-item>
+    <ion-item>
+      <ion-label>Deleted</ion-label>
+      <ion-badge color="dark" slot="end">4</ion-badge>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header><ion-label color="primary">Item with badge on left and right</ion-label></ion-list-header>
+    <ion-item>
+      <ion-badge slot="start">11</ion-badge>
+      <ion-label>My Item</ion-label>
+      <ion-badge slot="end">22</ion-badge>
+    </ion-item>
+  </ion-list>
 </ion-content>

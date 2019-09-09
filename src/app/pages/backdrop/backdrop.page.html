@@ -1,13 +1,20 @@
+<ion-backdrop
+  [tappable]="enableBackdropDismiss"
+  [visible]="showBackdrop"
+  [stopPropagation]="shouldPropagate"
+  (ionBackdropTap)="backDropTapped($event)"
+  >></ion-backdrop
+>
 <ion-header>
   <ion-toolbar>
-      <ion-buttons slot="start">
-          <ion-menu-button></ion-menu-button>
-        </ion-buttons>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
     <ion-title>Backdrop</ion-title>
     <ion-buttons slot="primary">
-        <ion-button routerLink="/back-button" routerDirection="root">
-          PREVIOUS
-        </ion-button>
+      <ion-button routerLink="/back-button" routerDirection="root">
+        PREVIOUS
+      </ion-button>
       <ion-button routerLink="/badge" routerDirection="root">
         NEXT
       </ion-button>
@@ -15,6 +22,6 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content class="ion-padding">
+  <ion-button expand="block">Can't be clicked</ion-button>
 </ion-content>

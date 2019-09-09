@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./backdrop.page.scss'],
 })
 export class BackdropPage implements OnInit {
-
+  enableBackdropDismiss = true;
+  showBackdrop = true;
+  shouldPropagate = true;
   constructor() { }
 
   ngOnInit() {
+  }
+
+  backDropTapped(event) {
+    console.log(event);
   }
 
 }
