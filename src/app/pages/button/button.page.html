@@ -1,13 +1,13 @@
 <ion-header>
   <ion-toolbar>
-      <ion-buttons slot="start">
-          <ion-menu-button></ion-menu-button>
-        </ion-buttons>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
     <ion-title>Button</ion-title>
     <ion-buttons slot="primary">
-        <ion-button routerLink="/badge" routerDirection="root">
-          PREVIOUS
-        </ion-button>
+      <ion-button routerLink="/badge" routerDirection="root">
+        PREVIOUS
+      </ion-button>
       <ion-button routerLink="/card" routerDirection="root">
         NEXT
       </ion-button>
@@ -15,6 +15,50 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-list-header>
+      <ion-label>Small Size</ion-label>
+    </ion-list-header>
+    <ion-button size="small">Default</ion-button>
+    <ion-button size="small" color="secondary">Secondary</ion-button>
+    <ion-button size="small" color="tertiary">Tertiary</ion-button>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>
+      <ion-label>Default Size</ion-label>
+    </ion-list-header>
+    <ion-button color="success">Success</ion-button>
+    <ion-button color="warning">Warning</ion-button>
+    <ion-button color="danger">Danger</ion-button>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>
+      <ion-label>Large Size</ion-label>
+    </ion-list-header>
+    <ion-button size="large" color="light">Light</ion-button>
+    <ion-button size="large" color="medium">Medium</ion-button>
+    <ion-button size="large" color="dark">Dark</ion-button>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>
+      <ion-label>
+        Block Width
+      </ion-label>
+    </ion-list-header>
+    <ion-button expand="block">A block button</ion-button>
+  </ion-list>
+
+  <ion-list class="full-width">
+    <ion-list-header>
+      <ion-label>
+        Full Width
+      </ion-label>
+    </ion-list-header>
+    <ion-button expand="full" color="secondary">A full-width button</ion-button>
+  </ion-list>
 
 </ion-content>
