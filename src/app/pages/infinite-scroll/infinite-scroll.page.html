@@ -1,13 +1,13 @@
 <ion-header>
   <ion-toolbar>
-      <ion-buttons slot="start">
-          <ion-menu-button></ion-menu-button>
-        </ion-buttons>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
     <ion-title>Infinite Scroll</ion-title>
     <ion-buttons slot="primary">
-        <ion-button routerLink="/image" routerDirection="root">
-          PREVIOUS
-        </ion-button>
+      <ion-button routerLink="/image" routerDirection="root">
+        PREVIOUS
+      </ion-button>
       <ion-button routerLink="/input" routerDirection="root">
         NEXT
       </ion-button>
@@ -16,5 +16,24 @@
 </ion-header>
 
 <ion-content>
+  <!-- <ion-button (click)="toggleInfiniteScroll()" expand="block">
+    Toggle Infinite Scroll
+  </ion-button> -->
 
+  <ion-list id="list" *ngFor="let i of data">
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://www.gravatar.com/avatar/1?d=monsterid&f=y">
+      </ion-avatar>
+      <ion-label>
+        <h2>{{i.name}} </h2>
+        <p>Created {{i.created}}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-infinite-scroll threshold="100px" (ionInfinite)="loadData($event)">
+    <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Loading more data...">
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
 </ion-content>
